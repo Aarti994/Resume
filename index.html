@@ -20,10 +20,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
+    
 
   </head>
-
-  <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -64,7 +63,7 @@
             <span class="text-primary"></span>
           </h1>
           <div class="subheading mb-5">#119,Balachaur ,Punjab  · (+91)8557976650 ·
-            <a href="mailto:name@email.com">aarti4572@gmail.com@email.com</a>
+            <a href="mailto:name@email.com">aarti4572@gmail.com</a>
           </div>
           <p class="lead mb-5">I am a Fresher</p>
           <div class="social-icons">
@@ -193,9 +192,36 @@
       </section>
       </div>
         <footer class = footer>  Made by <cite title="Aarti">  Aarti </cite></footer>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+        
+         
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } 
+                else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+            
+            
+            </script>
 
 
     <!-- Bootstrap core JavaScript -->
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
