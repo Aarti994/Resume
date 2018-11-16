@@ -85,8 +85,8 @@
       font-size: 3rem;
     }
 
-    .dev-icons .list-inline-item i:hover {
-      color: #0d65fd;
+    .dev-icons .list-inline-item {
+      color: default;
     }
 
     #sideNav .navbar-nav .nav-item .nav-link {
@@ -124,8 +124,9 @@
       }
       #sideNav .navbar-brand .img-profile {
         max-width: 10rem;
-        max-height: 10rem;
+        max-height: 15rem;
         border: 0.5rem solid rgba(5, 92, 134, 0.2);
+
       }
       #sideNav .navbar-collapse {
         display: -webkit-box;
@@ -196,9 +197,21 @@
     color:black;
       }
     
-     
+     .image:hover{
+          color:#e34f26;
+     }
+
+     .logo:hover{
+          color:#00ccff;
+
+     }
     
 
     a:hover, a:focus, a:active {
       color: #007bff;
+    }
+    .footer{
+      padding-left: 50px;
+      font-size: 1.5rem;
+      color:black;
     }
